@@ -4,6 +4,7 @@ namespace Illuminate\Foundation\Auth;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
+use Illuminate\Support\Facades\Lang;
 
 trait SendsPasswordResetEmails
 {
@@ -35,12 +36,24 @@ trait SendsPasswordResetEmails
         );
 
         if ($response === Password::RESET_LINK_SENT) {
+            if ($request->ajax()) {
+                return response()->json([
+                    'success' => Lang::get($response)
+                ]);
+            }
+
             return back()->with('status', trans($response));
         }
 
         // If an error was returned by the password broker, we will get this message
         // translated so we can notify a user of the problem. We'll redirect back
         // to where the users came from so they can attempt this process again.
+        if ($request->ajax()) {
+            return response()->json([
+                'error' => Lang::get($response)
+            ])->setStatusCode(401, Lang::get($response));
+        }
+
         return back()->withErrors(
             ['email' => trans($response)]
         );

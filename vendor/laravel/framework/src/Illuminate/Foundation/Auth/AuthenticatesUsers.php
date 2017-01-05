@@ -124,6 +124,12 @@ trait AuthenticatesUsers
      */
     protected function sendFailedLoginResponse(Request $request)
     {
+        if ($request->ajax()) {
+            return response()->json([
+                'error' => Lang::get('auth.failed')
+            ])->setStatusCode(401, 'Wrong credentials!');
+        }
+        
         return redirect()->back()
             ->withInput($request->only($this->username(), 'remember'))
             ->withErrors([
@@ -138,7 +144,7 @@ trait AuthenticatesUsers
      */
     public function username()
     {
-        return 'email';
+        return 'username';
     }
 
     /**

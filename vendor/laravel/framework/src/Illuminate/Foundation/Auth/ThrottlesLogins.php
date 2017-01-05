@@ -48,6 +48,12 @@ trait ThrottlesLogins
 
         $message = Lang::get('auth.throttle', ['seconds' => $seconds]);
 
+        if ($request->ajax()) {
+            return response()->json([
+                'error' => $message
+            ])->setStatusCode(401, 'Maximum login attempts reached!');
+        }
+
         return redirect()->back()
             ->withInput($request->only($this->username(), 'remember'))
             ->withErrors([$this->username() => $message]);

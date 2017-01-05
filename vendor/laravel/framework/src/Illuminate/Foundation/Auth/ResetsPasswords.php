@@ -105,7 +105,7 @@ trait ResetsPasswords
             'remember_token' => Str::random(60),
         ])->save();
 
-        $this->guard()->login($user);
+        //$this->guard()->login($user);
     }
 
     /**
@@ -116,8 +116,7 @@ trait ResetsPasswords
      */
     protected function sendResetResponse($response)
     {
-        return redirect($this->redirectPath())
-                            ->with('status', trans($response));
+        return redirect('/login')->with('status', trans($response));
     }
 
     /**

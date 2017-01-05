@@ -1,14 +1,15 @@
-
-window._ = require('lodash');
-
 /**
- * We'll load jQuery and the Bootstrap jQuery plugin which provides support
- * for JavaScript based Bootstrap features such as modals and tabs. This
- * code may be modified to fit the specific needs of your application.
+ * Declare and initialize time variables
  */
-
-window.$ = window.jQuery = require('jquery');
-require('bootstrap-sass');
+window.url_protocol = window.location.protocol;
+window.url_host = window.location.host;
+window.url_pathname = window.location.pathname;
+window.url_rootPath = '/ourstudyroom/public/';
+window.url_rootDIR = url_protocol + '//' + url_host + url_rootPath;
+window.timezone = jstz.determine().name();
+window.offset = (moment().tz(timezone).format('Z')).split(':')[0];
+window.datetime = moment().tz(timezone).format();
+window._ = require('lodash');
 
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
@@ -17,7 +18,9 @@ require('bootstrap-sass');
  */
 
 window.Vue = require('vue');
-require('vue-resource');
+Vue.use(require('vue-resource'));
+window.VueRouter = require('vue-router');
+Vue.use(window.VueRouter);
 
 /**
  * We'll register a HTTP interceptor to attach the "CSRF" header to each of
@@ -30,6 +33,12 @@ Vue.http.interceptors.push((request, next) => {
 
     next();
 });
+
+/**
+ * This is needed for the vue resource since an error
+ * "Laravel is not defined" will display
+ */
+window.Laravel = { csrfToken: $('meta[name="csrf-token"]').attr('content') };
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

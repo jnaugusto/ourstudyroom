@@ -1,0 +1,66 @@
+.modal-nav.ui.tabular.menu .item {
+		font-family: "Montserrat", sans-serif !important;
+		position: relative;
+		@include display-flex();
+		@include align-items(center);
+		@include justify-content(center);
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+		padding-top: 16px;
+		border-top-width: 0;
+		border-bottom-width: 0;
+		background-color: #fff;
+		color: #333;
+		width: 33.33%;
+		border-right: 1px solid rgba(34,36,38,.15);
+		-webkit-transition: background-color .2s ease,opacity .2s ease,color .2s ease,box-shadow .2s ease;
+	    transition: background-color .2s ease,opacity .2s ease,color .2s ease,box-shadow .2s ease;
+
+	    .icon {
+	    	font-size: 20px;
+			margin-top: -5px;
+	    }
+	    .content { 
+
+	    	.title {
+	    		font-size: 12px;
+				height: 15px;
+	    	}
+	    	.description {
+	    		font-size: 9px;
+				margin-top: 0;
+				height: 13px;
+	    	}
+	    }
+	}
+	.modal-nav.ui.tabular.menu .active.item,
+	.modal-nav.ui.tabular.menu .active.item:not(:last-child):after {
+		border: none!important;
+		@include border-radius(0);
+		background-color: #F2711C;
+		margin-bottom: 0px;
+		font-weight: 400;
+		color: #fff;
+	}
+	.modal-nav.ui.tabular.menu .item:not(:last-child):after {
+		position: absolute;
+	    z-index: 2;
+	    content: '';
+	    top: 50%;
+	    right: 0;
+	    border: solid;
+	    background-color: #FFF;
+	    width: 1.14285714em;
+	    height: 1.14285714em;
+	    border-color: rgba(34,36,38,.15);
+	    border-width: 0 1px 1px 0;
+	    -webkit-transition: background-color .2s ease,opacity .2s ease,color .2s ease,box-shadow .2s ease;
+	    transition: background-color .2s ease,opacity .2s ease,color .2s ease,box-shadow .2s ease;
+	    -webkit-transform: translateY(-50%) translateX(50%) rotate(-45deg);
+	    -ms-transform: translateY(-50%) translateX(50%) rotate(-45deg);
+	    transform: translateY(-50%) translateX(50%) rotate(-45deg);
+	}
+	.modal-nav.ui.tabular.menu .item:not(.active):hover,
+	.modal-nav.ui.tabular.menu .item:not(.active):hover:after {
+		background-color: #F3F4F5;
+	}
