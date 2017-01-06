@@ -673,6 +673,37 @@ ul.navigation {
 		.ui.segment.content-body {
 			background-color: transparent!important;
 		}
+		.content-body-form-header {
+			width: 100%;
+			background-color: #fff;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-bottom: 1px;
+			display: block;
+			border: 1px solid #d5d5d5;
+			.top-text {
+				float: right;
+				color: rgba(0, 0, 0, 0.4);
+				font-size: 10px;
+				margin-top: 5px;
+				clear: left;
+			}
+			.top-title {
+				font-weight: 400;
+				padding-top: 15px;
+				font-size: 14px;
+				text-transform: uppercase;
+			}
+			small:nth-child(3) {
+				font-size: 10px;
+				color: rgba(0, 0, 0, 0.4);
+			}
+			.search-options {
+				margin-top: 5px;
+				height: 32px!important;
+				padding-bottom: 0!important;
+			}
+		}
 	}
 	.general-body.content {
 		height: 100%;
@@ -688,14 +719,13 @@ ul.navigation {
 			padding: 0!important;
 
 			.content-body-form {
-				padding: 10px 20px;
+				padding: 10px 5px 10px 20px;
 				color: rgb(103, 106, 108);
 				.search-options {
 					width: 100%;
 					height: 42px;
 					padding-bottom: 10px;
 					margin-bottom: 15px;
-					border-bottom: 1px solid rgba(213, 213, 213, .5);
 					@include display-flex();
 					.ui.input.custom-border {
 						width: 100%;

@@ -915,38 +915,32 @@ a.fc-more {
   right: -80px;
 }
 
-.ui.cards > .card.override {
+@media only screen and (max-width: 767px) {
+  .ui.doubling.cards {
+    padding-top: 0 !important;
+    margin-top: 10px !important;
+  }
+  .ui.doubling.cards .card:first-child {
+    margin-top: 10px !important;
+  }
+}
+
+.ui.doubling.cards {
+  padding-top: 10px;
+}
+
+.ui.doubling.cards > .card.custom {
+  border-radius: 0;
+  border: 1px solid #d5d5d5;
+}
+
+.ui.cards > .card.override,
+.ui.cards > .card.custom {
   box-shadow: none;
 }
 
-.ui.cards > .card.custom {
-  border-radius: 0 !important;
-  width: 180px !important;
-}
-
-.ui.cards > .card.custom > .image img {
-  height: 120px !important;
-  border-radius: 0 !important;
-}
-
-.ui.cards > .card.override > .image,
-.ui.cards > .card.custom > .image {
+.ui.cards > .card.override > .image {
   position: relative;
-}
-
-.ui.cards > .card.custom .content {
-  padding: 10px 5px 7px;
-  background-color: #f8f8f8;
-}
-
-.ui.cards > .card.custom .content .header {
-  font-size: .8em;
-  color: #337ab7;
-  font-weight: 400;
-}
-
-.ui.cards > .card.custom .header {
-  font-family: "Montserrat", sans-serif !important;
 }
 
 .ui.cards > .card.override .header {
@@ -954,18 +948,12 @@ a.fc-more {
   font-family: "Montserrat", sans-serif !important;
 }
 
-.ui.cards > .card.custom .content .meta {
-  font-size: .6em;
-}
-
-.ui.cards > .card.override .meta,
-.ui.cards > .card.custom .meta {
+.ui.cards > .card.override .meta {
   font-size: 11px;
   text-align: center;
 }
 
-.ui.cards > .card.override .description,
-.ui.cards > .card.custom .description {
+.ui.cards > .card.override .description {
   font-size: 11px;
   text-align: center;
   margin-top: 10px !important;
@@ -973,23 +961,7 @@ a.fc-more {
   text-justify: inter-word;
 }
 
-.ui.cards > .card.custom .extra.content {
-  padding: 0px;
-  border: none !important;
-}
-
-.ui.cards > .card.custom .extra.content .view-button {
-  width: 100%;
-  height: 100%;
-  font-size: .8em;
-  padding: 7px 10px;
-  border: none !important;
-  border-top-left-radius: 0 !important;
-  border-top-right-radius: 0 !important;
-}
-
-.ui.cards > .card.override .extra.content,
-.ui.cards > .card.custom .extra.content {
+.ui.cards > .card.override .extra.content {
   font-size: 11px;
   color: #333;
 }
@@ -1681,6 +1653,42 @@ ul.navigation li .sub-navigation li a.sub-active .sub-text {
   background-color: transparent !important;
 }
 
+.body-right .general-body.content.custom-design .content-body-form-header {
+  width: 100%;
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 1px;
+  display: block;
+  border: 1px solid #d5d5d5;
+}
+
+.body-right .general-body.content.custom-design .content-body-form-header .top-text {
+  float: right;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 10px;
+  margin-top: 5px;
+  clear: left;
+}
+
+.body-right .general-body.content.custom-design .content-body-form-header .top-title {
+  font-weight: 400;
+  padding-top: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.body-right .general-body.content.custom-design .content-body-form-header small:nth-child(3) {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.body-right .general-body.content.custom-design .content-body-form-header .search-options {
+  margin-top: 5px;
+  height: 32px !important;
+  padding-bottom: 0 !important;
+}
+
 .body-right .general-body.content {
   height: 100%;
   margin: 10px 20px 0px !important;
@@ -1701,7 +1709,7 @@ ul.navigation li .sub-navigation li a.sub-active .sub-text {
 }
 
 .body-right .general-body.content .content-body .content-body-form {
-  padding: 10px 20px;
+  padding: 10px 5px 10px 20px;
   color: #676a6c;
 }
 
@@ -1710,7 +1718,6 @@ ul.navigation li .sub-navigation li a.sub-active .sub-text {
   height: 42px;
   padding-bottom: 10px;
   margin-bottom: 15px;
-  border-bottom: 1px solid rgba(213, 213, 213, 0.5);
 }
 
 .body-right .general-body.content .content-body .content-body-form .search-options .ui.input.custom-border {

@@ -24,3 +24,19 @@ Route::get('/test', function() {
             'email' => 'jessnoelaugusto@gmail.com'
         ]);
 });
+
+Route::get('/browser', function() {
+	$browser = new Browser();
+	return $browser->getBrowser();
+});
+
+
+Route::get('/browsers', 'HomeController@test');
+
+// Check Browser
+Route::group(['middleware' => 'browsercheck'], function () {
+	Route::get('/browser', function() {
+		$browser = new Browser();
+		return $browser->getBrowser();
+	});
+});

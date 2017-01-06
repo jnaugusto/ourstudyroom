@@ -8,130 +8,44 @@
                     <div class="ui text loader">Loading</div>
                 </div>
                 <div class="content-body-form">
-                    <small>Note: You can search for an ID, Name, Username or Email.</small>
-                    <div class="search-options">
-                        <button class="ui icon button white override icon-only">
-                            <i class="refresh icon"></i>
-                        </button>
-                        <div class="ui input custom-border">
-                            <input placeholder="Search..." type="text" class="search-input">
-                        </div>
-                        <div class="ui icon top right pointing dropdown button teal override icon-only record-count">
-                            <i class="options icon"></i>
+                    <div class="content-body-form-header">
+                        <small class="top-text"><i class="wait icon"></i>Showing 10 out of 20 users.</small>
+                        <div class="top-title">Administrator</div>
+                        <small>One administrator in the list cannot be deleted.</small>
+                        <div class="search-options">
+                            <button class="ui icon button white override icon-only">
+                                <i class="refresh icon"></i>
+                            </button>
+                            <div class="ui input custom-border">
+                                <input placeholder="Search..." type="text" class="search-input">
+                            </div>
+                            <div class="ui icon top right pointing dropdown button teal override icon-only record-count">
+                                <i class="options icon"></i>
+                            </div>
                         </div>
                     </div>
-                    <div class="ui cards">
+                    <div class="margin-height"></div>
+                    <div class="ui three doubling cards">
                         <div class="card custom">
-                            <div class="image">
-                                <img :src="root_url + '/images/profile_images/1476167618882.jpg'">
-                            </div>
-                            <div class="content">
-                                <div class="header">Are yousure</div>
-                                <div class="meta">
-                                    <span class="category">Administrator</span>
-                                </div>
-                            </div>
-                            <div class="extra content">
-                                <button class="ui mini fluid teal button override view-button">View Details</button>
-                            </div>
+                            asd
                         </div>
                         <div class="card custom">
-                            <div class="image">
-                                <img :src="root_url + '/images/profile_images/1476167618882.jpg'">
-                            </div>
-                            <div class="content">
-                                <div class="header">Are yousure</div>
-                                <div class="meta">
-                                    <span class="category">Administrator</span>
-                                </div>
-                            </div>
-                            <div class="extra content">
-                                <button class="ui mini fluid teal button override view-button">View Details</button>
-                            </div>
+                            asd
                         </div>
                         <div class="card custom">
-                            <div class="image">
-                                <img :src="root_url + '/images/profile_images/1476167618882.jpg'">
-                            </div>
-                            <div class="content">
-                                <div class="header">Are yousure</div>
-                                <div class="meta">
-                                    <span class="category">Administrator</span>
-                                </div>
-                            </div>
-                            <div class="extra content">
-                                <button class="ui mini fluid teal button override view-button">View Details</button>
-                            </div>
+                            asd
                         </div>
                         <div class="card custom">
-                            <div class="image">
-                                <img :src="root_url + '/images/profile_images/1476167618882.jpg'">
-                            </div>
-                            <div class="content">
-                                <div class="header">Are yousure</div>
-                                <div class="meta">
-                                    <span class="category">Administrator</span>
-                                </div>
-                            </div>
-                            <div class="extra content">
-                                <button class="ui mini fluid teal button override view-button">View Details</button>
-                            </div>
+                            asd
                         </div>
                         <div class="card custom">
-                            <div class="image">
-                                <img :src="root_url + '/images/profile_images/1476167618882.jpg'">
-                            </div>
-                            <div class="content">
-                                <div class="header">Are yousure</div>
-                                <div class="meta">
-                                    <span class="category">Administrator</span>
-                                </div>
-                            </div>
-                            <div class="extra content">
-                                <button class="ui mini fluid teal button override view-button">View Details</button>
-                            </div>
+                            asd
                         </div>
                         <div class="card custom">
-                            <div class="image">
-                                <img :src="root_url + '/images/profile_images/1476167618882.jpg'">
-                            </div>
-                            <div class="content">
-                                <div class="header">Are yousure</div>
-                                <div class="meta">
-                                    <span class="category">Administrator</span>
-                                </div>
-                            </div>
-                            <div class="extra content">
-                                <button class="ui mini fluid teal button override view-button">View Details</button>
-                            </div>
+                            asd
                         </div>
                         <div class="card custom">
-                            <div class="image">
-                                <img :src="root_url + '/images/profile_images/1476167618882.jpg'">
-                            </div>
-                            <div class="content">
-                                <div class="header">Are yousure</div>
-                                <div class="meta">
-                                    <span class="category">Administrator</span>
-                                </div>
-                            </div>
-                            <div class="extra content">
-                                <button class="ui mini fluid teal button override view-button">View Details</button>
-                            </div>
-                        </div>
-                        <div class="card custom">
-                            <div class="image">
-                                <img :src="root_url + '/images/profile_images/1476167618882.jpg'">
-                            </div>
-                            <div class="content">
-                                <div class="header">Are yousure</div>
-                                <div class="meta">
-                                    <span class="category">Administrator</span>
-                                </div>
-                            </div>
-                            <div class="extra content">
-                                <button class="ui mini fluid teal button override view-button">View Details</button>
-                            </div>
+                            asd
                         </div>
                     </div>
                 </div>

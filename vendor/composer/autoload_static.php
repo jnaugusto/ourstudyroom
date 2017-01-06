@@ -23,6 +23,11 @@ class ComposerStaticInit4d4af3efc14356e9a0ab1ae3224a19d9
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'h' => 
+        array (
+            'hisorange\\Traits\\' => 17,
+            'hisorange\\BrowserDetect\\' => 24,
+        ),
         'X' => 
         array (
             'XdgBaseDir\\' => 11,
@@ -100,6 +105,14 @@ class ComposerStaticInit4d4af3efc14356e9a0ab1ae3224a19d9
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'hisorange\\Traits\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hisorange/traits/src',
+        ),
+        'hisorange\\BrowserDetect\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hisorange/browser-detect/src',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -236,6 +249,13 @@ class ComposerStaticInit4d4af3efc14356e9a0ab1ae3224a19d9
     );
 
     public static $prefixesPsr0 = array (
+        'p' => 
+        array (
+            'phpbrowscap' => 
+            array (
+                0 => __DIR__ . '/..' . '/garetjax/phpbrowscap/src',
+            ),
+        ),
         'P' => 
         array (
             'Prophecy\\' => 
@@ -267,6 +287,10 @@ class ComposerStaticInit4d4af3efc14356e9a0ab1ae3224a19d9
             array (
                 0 => __DIR__ . '/..' . '/doctrine/inflector/lib',
             ),
+            'Detection' => 
+            array (
+                0 => __DIR__ . '/..' . '/mobiledetect/mobiledetectlib/namespaced',
+            ),
         ),
         'C' => 
         array (
@@ -278,23 +302,32 @@ class ComposerStaticInit4d4af3efc14356e9a0ab1ae3224a19d9
     );
 
     public static $classMap = array (
+        'App\\ClassSchedule' => __DIR__ . '/../..' . '/app/ClassSchedule.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+        'App\\Course' => __DIR__ . '/../..' . '/app/Course.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Level' => __DIR__ . '/../..' . '/app/Level.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Staff' => __DIR__ . '/../..' . '/app/Staff.php',
+        'App\\Student' => __DIR__ . '/../..' . '/app/Student.php',
+        'App\\StudentClass' => __DIR__ . '/../..' . '/app/StudentClass.php',
+        'App\\StudentHour' => __DIR__ . '/../..' . '/app/StudentHour.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'App\\UserRole' => __DIR__ . '/../..' . '/app/UserRole.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'ClassPreloader\\ClassList' => __DIR__ . '/..' . '/classpreloader/classpreloader/src/ClassList.php',
@@ -343,6 +376,7 @@ class ComposerStaticInit4d4af3efc14356e9a0ab1ae3224a19d9
         'DeepCopy\\TypeFilter\\Spl\\SplDoublyLinkedList' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedList.php',
         'DeepCopy\\TypeFilter\\TypeFilter' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/TypeFilter.php',
         'DeepCopy\\TypeMatcher\\TypeMatcher' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeMatcher/TypeMatcher.php',
+        'Detection\\MobileDetect' => __DIR__ . '/..' . '/mobiledetect/mobiledetectlib/namespaced/Detection/MobileDetect.php',
         'Doctrine\\Common\\Inflector\\Inflector' => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php',
         'Doctrine\\Instantiator\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/Exception/ExceptionInterface.php',
         'Doctrine\\Instantiator\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/Exception/InvalidArgumentException.php',
@@ -1491,6 +1525,7 @@ class ComposerStaticInit4d4af3efc14356e9a0ab1ae3224a19d9
         'League\\Flysystem\\Util\\ContentListingFormatter' => __DIR__ . '/..' . '/league/flysystem/src/Util/ContentListingFormatter.php',
         'League\\Flysystem\\Util\\MimeType' => __DIR__ . '/..' . '/league/flysystem/src/Util/MimeType.php',
         'League\\Flysystem\\Util\\StreamHasher' => __DIR__ . '/..' . '/league/flysystem/src/Util/StreamHasher.php',
+        'Mobile_Detect' => __DIR__ . '/..' . '/mobiledetect/mobiledetectlib/Mobile_Detect.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',
@@ -3096,6 +3131,18 @@ class ComposerStaticInit4d4af3efc14356e9a0ab1ae3224a19d9
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
+        'hisorange\\BrowserDetect\\Exceptions\\InvalidCallException' => __DIR__ . '/..' . '/hisorange/browser-detect/src/Exceptions/InvalidCallException.php',
+        'hisorange\\BrowserDetect\\Facade\\Parser' => __DIR__ . '/..' . '/hisorange/browser-detect/src/Facade/Parser.php',
+        'hisorange\\BrowserDetect\\Parser' => __DIR__ . '/..' . '/hisorange/browser-detect/src/Parser.php',
+        'hisorange\\BrowserDetect\\Plugin\\Browscap' => __DIR__ . '/..' . '/hisorange/browser-detect/src/Plugin/Browscap.php',
+        'hisorange\\BrowserDetect\\Plugin\\MobileDetect2' => __DIR__ . '/..' . '/hisorange/browser-detect/src/Plugin/MobileDetect2.php',
+        'hisorange\\BrowserDetect\\Plugin\\UAParser' => __DIR__ . '/..' . '/hisorange/browser-detect/src/Plugin/UAParser.php',
+        'hisorange\\BrowserDetect\\Plugin\\UserAgentStringApi' => __DIR__ . '/..' . '/hisorange/browser-detect/src/Plugin/UserAgentStringApi.php',
+        'hisorange\\BrowserDetect\\Provider\\BrowserDetectService' => __DIR__ . '/..' . '/hisorange/browser-detect/src/Provider/BrowserDetectService.php',
+        'hisorange\\BrowserDetect\\Result' => __DIR__ . '/..' . '/hisorange/browser-detect/src/Result.php',
+        'hisorange\\Traits\\ObjectConfig' => __DIR__ . '/..' . '/hisorange/traits/src/ObjectConfig.php',
+        'hisorange\\Traits\\PluginCollection' => __DIR__ . '/..' . '/hisorange/traits/src/PluginCollection.php',
+        'hisorange\\Traits\\RunTimeCache' => __DIR__ . '/..' . '/hisorange/traits/src/RunTimeCache.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',
@@ -3157,6 +3204,8 @@ class ComposerStaticInit4d4af3efc14356e9a0ab1ae3224a19d9
         'phpDocumentor\\Reflection\\Types\\String_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/String_.php',
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
+        'phpbrowscap\\Browscap' => __DIR__ . '/..' . '/garetjax/phpbrowscap/src/phpbrowscap/Browscap.php',
+        'phpbrowscap\\Exception' => __DIR__ . '/..' . '/garetjax/phpbrowscap/src/phpbrowscap/Browscap.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

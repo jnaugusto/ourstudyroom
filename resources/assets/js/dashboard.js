@@ -74,6 +74,9 @@ Dashboard.app = new Vue({
 
         $('.ui.dropdown').dropdown();
 
+        // Set default route
+        router.replace({ name: 'administrator'});
+
     },
 
     data: {

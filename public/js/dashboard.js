@@ -314,92 +314,6 @@ module.exports = __vue_exports__
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 /* harmony default export */ exports["default"] = {
@@ -17814,89 +17728,29 @@ if (false) {
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "content-container"
   }, [_c('div', {
     staticClass: "ui segment override wrapper general-body content custom-design"
   }, [_c('div', {
     staticClass: "ui segment loaders general-body-content content-body"
-  }, [_vm._m(0), _vm._v(" "), _c('div', {
-    staticClass: "content-body-form"
-  }, [_c('small', [_vm._v("Note: You can search for an ID, Name, Username or Email.")]), _vm._v(" "), _vm._m(1), _vm._v(" "), _c('div', {
-    staticClass: "ui cards"
   }, [_c('div', {
-    staticClass: "card custom"
-  }, [_c('div', {
-    staticClass: "image"
-  }, [_c('img', {
-    attrs: {
-      "src": _vm.root_url + '/images/profile_images/1476167618882.jpg'
-    }
-  })]), _vm._v(" "), _vm._m(2), _vm._v(" "), _vm._m(3)]), _vm._v(" "), _c('div', {
-    staticClass: "card custom"
-  }, [_c('div', {
-    staticClass: "image"
-  }, [_c('img', {
-    attrs: {
-      "src": _vm.root_url + '/images/profile_images/1476167618882.jpg'
-    }
-  })]), _vm._v(" "), _vm._m(4), _vm._v(" "), _vm._m(5)]), _vm._v(" "), _c('div', {
-    staticClass: "card custom"
-  }, [_c('div', {
-    staticClass: "image"
-  }, [_c('img', {
-    attrs: {
-      "src": _vm.root_url + '/images/profile_images/1476167618882.jpg'
-    }
-  })]), _vm._v(" "), _vm._m(6), _vm._v(" "), _vm._m(7)]), _vm._v(" "), _c('div', {
-    staticClass: "card custom"
-  }, [_c('div', {
-    staticClass: "image"
-  }, [_c('img', {
-    attrs: {
-      "src": _vm.root_url + '/images/profile_images/1476167618882.jpg'
-    }
-  })]), _vm._v(" "), _vm._m(8), _vm._v(" "), _vm._m(9)]), _vm._v(" "), _c('div', {
-    staticClass: "card custom"
-  }, [_c('div', {
-    staticClass: "image"
-  }, [_c('img', {
-    attrs: {
-      "src": _vm.root_url + '/images/profile_images/1476167618882.jpg'
-    }
-  })]), _vm._v(" "), _vm._m(10), _vm._v(" "), _vm._m(11)]), _vm._v(" "), _c('div', {
-    staticClass: "card custom"
-  }, [_c('div', {
-    staticClass: "image"
-  }, [_c('img', {
-    attrs: {
-      "src": _vm.root_url + '/images/profile_images/1476167618882.jpg'
-    }
-  })]), _vm._v(" "), _vm._m(12), _vm._v(" "), _vm._m(13)]), _vm._v(" "), _c('div', {
-    staticClass: "card custom"
-  }, [_c('div', {
-    staticClass: "image"
-  }, [_c('img', {
-    attrs: {
-      "src": _vm.root_url + '/images/profile_images/1476167618882.jpg'
-    }
-  })]), _vm._v(" "), _vm._m(14), _vm._v(" "), _vm._m(15)]), _vm._v(" "), _c('div', {
-    staticClass: "card custom"
-  }, [_c('div', {
-    staticClass: "image"
-  }, [_c('img', {
-    attrs: {
-      "src": _vm.root_url + '/images/profile_images/1476167618882.jpg'
-    }
-  })]), _vm._v(" "), _vm._m(16), _vm._v(" "), _vm._m(17)])])])])])])
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
     staticClass: "ui inverted dimmer"
   }, [_c('div', {
     staticClass: "ui text loader"
-  }, [_vm._v("Loading")])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
+  }, [_vm._v("Loading")])]), _vm._v(" "), _c('div', {
+    staticClass: "content-body-form"
+  }, [_c('div', {
+    staticClass: "content-body-form-header"
+  }, [_c('small', {
+    staticClass: "top-text"
+  }, [_c('i', {
+    staticClass: "wait icon"
+  }), _vm._v("Showing 10 out of 20 users.")]), _vm._v(" "), _c('div', {
+    staticClass: "top-title"
+  }, [_vm._v("Administrator")]), _vm._v(" "), _c('small', [_vm._v("One administrator in the list cannot be deleted.")]), _vm._v(" "), _c('div', {
     staticClass: "search-options"
   }, [_c('button', {
     staticClass: "ui icon button white override icon-only"
@@ -17914,135 +17768,25 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "ui icon top right pointing dropdown button teal override icon-only record-count"
   }, [_c('i', {
     staticClass: "options icon"
-  })])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "content"
+  })])])]), _vm._v(" "), _c('div', {
+    staticClass: "margin-height"
+  }), _vm._v(" "), _c('div', {
+    staticClass: "ui three doubling cards"
   }, [_c('div', {
-    staticClass: "header"
-  }, [_vm._v("Are yousure")]), _vm._v(" "), _c('div', {
-    staticClass: "meta"
-  }, [_c('span', {
-    staticClass: "category"
-  }, [_vm._v("Administrator")])])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "extra content"
-  }, [_c('button', {
-    staticClass: "ui mini fluid teal button override view-button"
-  }, [_vm._v("View Details")])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "content"
-  }, [_c('div', {
-    staticClass: "header"
-  }, [_vm._v("Are yousure")]), _vm._v(" "), _c('div', {
-    staticClass: "meta"
-  }, [_c('span', {
-    staticClass: "category"
-  }, [_vm._v("Administrator")])])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "extra content"
-  }, [_c('button', {
-    staticClass: "ui mini fluid teal button override view-button"
-  }, [_vm._v("View Details")])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "content"
-  }, [_c('div', {
-    staticClass: "header"
-  }, [_vm._v("Are yousure")]), _vm._v(" "), _c('div', {
-    staticClass: "meta"
-  }, [_c('span', {
-    staticClass: "category"
-  }, [_vm._v("Administrator")])])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "extra content"
-  }, [_c('button', {
-    staticClass: "ui mini fluid teal button override view-button"
-  }, [_vm._v("View Details")])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "content"
-  }, [_c('div', {
-    staticClass: "header"
-  }, [_vm._v("Are yousure")]), _vm._v(" "), _c('div', {
-    staticClass: "meta"
-  }, [_c('span', {
-    staticClass: "category"
-  }, [_vm._v("Administrator")])])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "extra content"
-  }, [_c('button', {
-    staticClass: "ui mini fluid teal button override view-button"
-  }, [_vm._v("View Details")])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "content"
-  }, [_c('div', {
-    staticClass: "header"
-  }, [_vm._v("Are yousure")]), _vm._v(" "), _c('div', {
-    staticClass: "meta"
-  }, [_c('span', {
-    staticClass: "category"
-  }, [_vm._v("Administrator")])])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "extra content"
-  }, [_c('button', {
-    staticClass: "ui mini fluid teal button override view-button"
-  }, [_vm._v("View Details")])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "content"
-  }, [_c('div', {
-    staticClass: "header"
-  }, [_vm._v("Are yousure")]), _vm._v(" "), _c('div', {
-    staticClass: "meta"
-  }, [_c('span', {
-    staticClass: "category"
-  }, [_vm._v("Administrator")])])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "extra content"
-  }, [_c('button', {
-    staticClass: "ui mini fluid teal button override view-button"
-  }, [_vm._v("View Details")])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "content"
-  }, [_c('div', {
-    staticClass: "header"
-  }, [_vm._v("Are yousure")]), _vm._v(" "), _c('div', {
-    staticClass: "meta"
-  }, [_c('span', {
-    staticClass: "category"
-  }, [_vm._v("Administrator")])])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "extra content"
-  }, [_c('button', {
-    staticClass: "ui mini fluid teal button override view-button"
-  }, [_vm._v("View Details")])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "content"
-  }, [_c('div', {
-    staticClass: "header"
-  }, [_vm._v("Are yousure")]), _vm._v(" "), _c('div', {
-    staticClass: "meta"
-  }, [_c('span', {
-    staticClass: "category"
-  }, [_vm._v("Administrator")])])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "extra content"
-  }, [_c('button', {
-    staticClass: "ui mini fluid teal button override view-button"
-  }, [_vm._v("View Details")])])
+    staticClass: "card custom"
+  }, [_vm._v("\n                        asd\n                    ")]), _vm._v(" "), _c('div', {
+    staticClass: "card custom"
+  }, [_vm._v("\n                        asd\n                    ")]), _vm._v(" "), _c('div', {
+    staticClass: "card custom"
+  }, [_vm._v("\n                        asd\n                    ")]), _vm._v(" "), _c('div', {
+    staticClass: "card custom"
+  }, [_vm._v("\n                        asd\n                    ")]), _vm._v(" "), _c('div', {
+    staticClass: "card custom"
+  }, [_vm._v("\n                        asd\n                    ")]), _vm._v(" "), _c('div', {
+    staticClass: "card custom"
+  }, [_vm._v("\n                        asd\n                    ")]), _vm._v(" "), _c('div', {
+    staticClass: "card custom"
+  }, [_vm._v("\n                        asd\n                    ")])])])])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
@@ -30245,6 +29989,9 @@ Dashboard.app = new Vue({
     mounted: function() {
 
         $('.ui.dropdown').dropdown();
+
+        // Set default route
+        router.replace({ name: 'administrator'});
 
     },
 
