@@ -1,4 +1,4 @@
-.flash-modal-wrap.ui.grid .row .message-content, .flash-modal-wrap.ui.grid .row .message-content .message-header, .fc-overlay, .ui.segment.override.header, .ui.segment.override.header .header-title, .ui.segment.override.header .header-actions, .ui.segment.general-body.content .content-header .header-actions .ui.button.overrides.btn-icon, .ui.form.override .field > label, .ui.table.override tr td .block-row, .ui.dropdown.override .menu > .ui.search.input, .ui.dropdown.override.user-dropdown .menu > .item .icon-text, .ui.medium.image.override .profile-photo-wrap .add-photo-wrap, .ui.image.header.override, .ui.segment.loaders .capture-container, .ui.segment.loaders .capture-container .camera-wrap, .ui.segment.loaders .capture-container .camera-wrap .camera-buttons, .ui.active.dimmer.custom-loading, .ui.dimmer.add-class-result, .ui.dimmer.add-class-result .div-column, .general-container, .general-container-override, .app-logo,
+.flash-modal-wrap.ui.grid .row .message-content, .flash-modal-wrap.ui.grid .row .message-content .message-header, .fc-overlay, .ui.segment.override.header, .ui.segment.override.header .header-title, .ui.segment.override.header .header-actions, .ui.segment.general-body.content .content-header .header-actions .ui.button.overrides.btn-icon, .ui.form.override .field > label, .ui.table.override tr td .block-row, .ui.dropdown.override .menu > .ui.search.input, .ui.dropdown.override.user-dropdown .menu > .item .icon-text, .ui.medium.image.override .profile-photo-wrap .add-photo-wrap, .ui.image.header.override, .ui.segment.loaders .capture-container, .ui.segment.loaders .capture-container .camera-wrap, .ui.segment.loaders .capture-container .camera-wrap .camera-buttons, .ui.grid.custom > .column .panel, .ui.grid.custom > .column .panel .top, .ui.grid.custom > .column .panel .bottom, .ui.active.dimmer.custom-loading, .ui.dimmer.add-class-result, .ui.dimmer.add-class-result .div-column, .general-container, .general-container-override, .app-logo,
 .forgot-pass,
 .user-image, .app-logo .company-logo-slogan, .general-body-content .gen-header, .general-body-content .gen-body .ui.form .field.override.center-info, .general-body-content .gen-body .ui.form .field.override.center-info div, .general-body-content .gen-footer, .dashboard-container, .dashboard-container .dashboard-left, .dashboard-container .dashboard-right, .dashboard-left .company-name, .dashboard-left .company-name .name, .dashboard-left .user-info, .dashboard-left .user-info .user-profile-image, .dashboard-left .user-info .user-text, .dashboard-left .user-info .user-text div, ul.navigation li.nav-header, ul.navigation li .main-menu, ul.navigation li .sub-navigation li a, .dashboard-right .body-header, .dashboard-right .body-header .left, .dashboard-right .body-header .center, .dashboard-right .body-header .right, .dashboard-right .body-right, .body-header .right .user-dropdown, .datetime, .body-right .bread-crumb-wrapper, .body-right .bread-crumb-wrapper .bread-crumb-left, .body-right .pagination-wrapper, .body-right .content-container, .body-right .general-body.content, .body-right .general-body.content .content-body .content-body-form .search-options, .body-right .general-body.content .content-body.override, .general-wrap-override .modal-container .modal-header, .general-wrap-override .modal-container .modal-nav, .general-wrap-override .modal-container .modal-body, .general-wrap-override .modal-container .modal-body .body-form .time-selector, .general-wrap-override .modal-container .modal-body .body-form .time-selector .date-selected-wrap, .general-wrap-override .modal-container .modal-body .body-form .profile-photo, .general-wrap-override .modal-container .modal-body .body-form.view-user, .general-wrap-override .modal-container .modal-footer, .event-wrapper, .event-wrapper .event-left, .event-wrapper .event-right {
   display: -webkit-box;
@@ -12,7 +12,7 @@
   flex-direction: row;
 }
 
-.flash-modal-wrap.ui.grid .row .message-content, .ui.dropdown.override .menu > .ui.search.input.sortby, .ui.segment.loaders .capture-container .camera-wrap, .ui.active.dimmer.custom-loading, .ui.dimmer.add-class-result .div-column, .app-logo .company-logo-slogan, .general-body-content .gen-header, .general-body-content .gen-body .ui.form .field.override.center-info div, .dashboard-container .dashboard-left, .dashboard-container .dashboard-right, .dashboard-left .company-name .name, .dashboard-left .user-info, .dashboard-left .user-info .user-text, .dashboard-right .body-right, .datetime, .body-right .bread-crumb-wrapper .bread-crumb-left, .body-right .content-container, .body-right .general-body.content, .body-right .general-body.content .content-body.override, .general-wrap-override .modal-container .modal-header, .general-wrap-override .modal-container .modal-body, .general-wrap-override .modal-container .modal-body .body-form .time-selector, .general-wrap-override .modal-container .modal-body .body-form .time-selector .date-selected-wrap, .general-wrap-override .modal-container .modal-body .body-form .profile-photo, .general-wrap-override .modal-container .modal-body .body-form.view-user {
+.flash-modal-wrap.ui.grid .row .message-content, .ui.dropdown.override .menu > .ui.search.input.sortby, .ui.segment.loaders .capture-container .camera-wrap, .ui.grid.custom > .column .panel, .ui.grid.custom > .column .panel .top, .ui.active.dimmer.custom-loading, .ui.dimmer.add-class-result .div-column, .app-logo .company-logo-slogan, .general-body-content .gen-header, .general-body-content .gen-body .ui.form .field.override.center-info div, .dashboard-container .dashboard-left, .dashboard-container .dashboard-right, .dashboard-left .company-name .name, .dashboard-left .user-info, .dashboard-left .user-info .user-text, .dashboard-right .body-right, .datetime, .body-right .bread-crumb-wrapper .bread-crumb-left, .body-right .content-container, .body-right .general-body.content, .body-right .general-body.content .content-body.override, .general-wrap-override .modal-container .modal-header, .general-wrap-override .modal-container .modal-body, .general-wrap-override .modal-container .modal-body .body-form .time-selector, .general-wrap-override .modal-container .modal-body .body-form .time-selector .date-selected-wrap, .general-wrap-override .modal-container .modal-body .body-form .profile-photo, .general-wrap-override .modal-container .modal-body .body-form.view-user {
   -webkit-box-orient: vertical;
   -moz-flex-direction: column;
   flex-direction: column;
@@ -32,7 +32,7 @@
   justify-content: flex-end;
 }
 
-.fc-overlay, .ui.segment.general-body.content .content-header .header-actions .ui.button.overrides.btn-icon, .ui.dropdown.override .menu > .ui.search.input, .ui.active.dimmer.custom-loading, .ui.dimmer.add-class-result, .ui.dimmer.add-class-result .div-column, .general-container, .general-container-override, .app-logo,
+.fc-overlay, .ui.segment.general-body.content .content-header .header-actions .ui.button.overrides.btn-icon, .ui.dropdown.override .menu > .ui.search.input, .ui.grid.custom > .column .panel .top, .ui.grid.custom > .column .panel .bottom, .ui.active.dimmer.custom-loading, .ui.dimmer.add-class-result, .ui.dimmer.add-class-result .div-column, .general-container, .general-container-override, .app-logo,
 .forgot-pass,
 .user-image, .general-body-content .gen-header, .general-body-content .gen-body .ui.form .field.override.center-info, .dashboard-left .user-info .user-profile-image, .dashboard-right .body-header .left, .dashboard-right .body-header .center, .body-right .bread-crumb-wrapper .bread-crumb-left, .body-right .general-body.content .content-body.override, .general-wrap-override .modal-container .modal-header, .general-wrap-override .modal-container .modal-nav.override, .general-wrap-override .modal-container .modal-body .body-form .time-selector, .general-wrap-override .modal-container .modal-body .body-form .profile-photo, .general-wrap-override .modal-container .modal-footer.view-user, .general-wrap-override .modal-container .modal-footer.delete-user {
   -webkit-box-pack: center;
@@ -54,7 +54,7 @@
   align-items: flex-start;
 }
 
-.flash-modal-wrap.ui.grid .row .message-content .message-header, .fc-overlay, .ui.segment.override.header .header-title, .ui.segment.override.header .header-actions, .ui.segment.general-body.content .content-header .header-actions .ui.button.overrides.btn-icon, .ui.form.override .field > label, .ui.table.override tr td .block-row, .ui.dropdown.override .menu > .ui.search.input, .ui.dropdown.override.user-dropdown .menu > .item .icon-text, .ui.medium.image.override .profile-photo-wrap .add-photo-wrap, .ui.segment.loaders .capture-container .camera-wrap, .ui.active.dimmer.custom-loading, .ui.dimmer.add-class-result, .ui.dimmer.add-class-result .div-column, .app-logo,
+.flash-modal-wrap.ui.grid .row .message-content .message-header, .fc-overlay, .ui.segment.override.header .header-title, .ui.segment.override.header .header-actions, .ui.segment.general-body.content .content-header .header-actions .ui.button.overrides.btn-icon, .ui.form.override .field > label, .ui.table.override tr td .block-row, .ui.dropdown.override .menu > .ui.search.input, .ui.dropdown.override.user-dropdown .menu > .item .icon-text, .ui.medium.image.override .profile-photo-wrap .add-photo-wrap, .ui.segment.loaders .capture-container .camera-wrap, .ui.grid.custom > .column .panel .top, .ui.active.dimmer.custom-loading, .ui.dimmer.add-class-result, .ui.dimmer.add-class-result .div-column, .app-logo,
 .forgot-pass,
 .user-image, .general-body-content .gen-header, .general-body-content .gen-body .ui.form .field.override.center-info, .general-body-content .gen-footer, .dashboard-left .company-name, .dashboard-left .user-info, .dashboard-left .user-info .user-text, ul.navigation li.nav-header, ul.navigation li .main-menu, ul.navigation li .sub-navigation li a, .dashboard-right .body-header .left, .dashboard-right .body-header .center, .dashboard-right .body-header .right, .body-header .right .user-dropdown, .datetime, .body-right .bread-crumb-wrapper, .body-right .pagination-wrapper, .body-right .general-body.content .content-body.override, .general-wrap-override .modal-container .modal-header, .general-wrap-override .modal-container .modal-nav.override, .general-wrap-override .modal-container .modal-body, .general-wrap-override .modal-container .modal-body .body-form .time-selector, .general-wrap-override .modal-container .modal-body .body-form .time-selector .date-selected-wrap, .general-wrap-override .modal-container .modal-body .body-form .profile-photo, .general-wrap-override .modal-container .modal-body .body-form.view-user, .general-wrap-override .modal-container .modal-footer {
   -webkit-box-align: center;
@@ -915,27 +915,7 @@ a.fc-more {
   right: -80px;
 }
 
-@media only screen and (max-width: 767px) {
-  .ui.doubling.cards {
-    padding-top: 0 !important;
-    margin-top: 10px !important;
-  }
-  .ui.doubling.cards .card:first-child {
-    margin-top: 10px !important;
-  }
-}
-
-.ui.doubling.cards {
-  padding-top: 10px;
-}
-
-.ui.doubling.cards > .card.custom {
-  border-radius: 0;
-  border: 1px solid #d5d5d5;
-}
-
-.ui.cards > .card.override,
-.ui.cards > .card.custom {
+.ui.cards > .card.override {
   box-shadow: none;
 }
 
@@ -964,6 +944,83 @@ a.fc-more {
 .ui.cards > .card.override .extra.content {
   font-size: 11px;
   color: #333;
+}
+
+@media only screen and (max-width: 1152px) and (min-width: 908px) {
+  .ui[class*="four column"].doubling.grid.custom > .column:not(.row) {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.stackable.grid > .column:not(.row) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.ui.grid.custom {
+  padding-top: 10px;
+}
+
+.ui.grid.custom > .column .panel {
+  background-color: #fff !important;
+  box-shadow: rgba(0, 0, 0, 0.137255) 0px 2px 2px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.117647) 0px 1px 5px 0px;
+}
+
+.ui.grid.custom > .column .panel .top {
+  padding: 20px 5px 15px;
+}
+
+.ui.grid.custom > .column .panel .top strong {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.ui.grid.custom > .column .panel .top .email {
+  font-size: 9px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.ui.grid.custom > .column .panel .bottom {
+  border-top: 1px solid #e7eaec;
+  padding: 10px 5px;
+}
+
+.ui.buttons.custom .button {
+  padding: 6px 6px 5px !important;
+  border-radius: 0;
+  font-weight: 400;
+  font-size: 9px;
+  border: 1px solid #e7eaec;
+  text-shadow: none !important;
+  background-color: #fff !important;
+  color: #676a6c;
+}
+
+.ui.buttons.custom .button .icon {
+  margin-right: 0 !important;
+}
+
+.ui.buttons.custom .button:hover,
+.ui.buttons.custom .button:focus {
+  background-color: #f3f3f4 !important;
+}
+
+.ui.buttons.custom .button:nth-child(2) {
+  border-left-width: 0 !important;
+  border-right-width: 0 !important;
+}
+
+.ui.buttons.custom .button:first-child {
+  border-top-left-radius: 3px !important;
+  border-bottom-left-radius: 3px !important;
+}
+
+.ui.buttons.custom .button:last-child {
+  border-top-right-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
 }
 
 .ui.grid.form.override .column {
@@ -1273,6 +1330,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .dashboard-left .company-name {
   height: 60px;
+  min-height: 60px;
   background-color: #fff;
   border-bottom: 1px solid #e7eaec;
 }
@@ -1513,7 +1571,7 @@ ul.navigation li .sub-navigation li a.sub-active .sub-text {
 .dashboard-right .body-right {
   width: 100%;
   height: 100%;
-  background-color: #e8e8e8;
+  background-color: #f3f3f4;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -1593,7 +1651,7 @@ ul.navigation li .sub-navigation li a.sub-active .sub-text {
   height: 60px;
   padding: 0 12px 0 20px;
   background-color: #fff;
-  border-bottom: 1px solid #d5d5d5;
+  border-bottom: 1px solid #e7eaec;
   margin-bottom: 0 !important;
 }
 
@@ -1660,7 +1718,7 @@ ul.navigation li .sub-navigation li a.sub-active .sub-text {
   padding-right: 15px;
   padding-bottom: 1px;
   display: block;
-  border: 1px solid #d5d5d5;
+  border: 1px solid #e7eaec;
 }
 
 .body-right .general-body.content.custom-design .content-body-form-header .top-text {
@@ -2095,3 +2153,5 @@ ul.navigation li .sub-navigation li a.sub-active .sub-text {
 .last-right-padding {
   padding-right: 10px !important;
 }
+
+/*# sourceMappingURL=app.css.map */

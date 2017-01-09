@@ -25,27 +25,169 @@
                         </div>
                     </div>
                     <div class="margin-height"></div>
-                    <div class="ui three doubling cards">
-                        <div class="card custom">
-                            asd
+                    <div class="ui four column doubling stackable grid custom">
+                        <div class="column">
+                            <div class="panel">
+                                <div class="top">
+                                    <img class="ui tiny circular image" :src="root_url + 'images/profile_images/1474943470659.jpg'">
+                                    <strong>Jess Noel Augusto</strong>
+                                    <label class="email">jessnoelaugusto@gmail.com</label>
+                                </div>
+                                <div class="bottom">
+                                    <div class="ui mini buttons custom">
+                                        <button class="ui button">
+                                            <i class="search icon"></i>
+                                            View
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="edit icon"></i>
+                                            Edit
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="trash icon"></i>
+                                            Delete
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card custom">
-                            asd
+                        <div class="column">
+                            <div class="panel">
+                                <div class="top">
+                                    
+                                </div>
+                                <div class="bottom">
+                                    <div class="ui mini buttons custom">
+                                        <button class="ui button">
+                                            <i class="search icon"></i>
+                                            View
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="edit icon"></i>
+                                            Edit
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="trash icon"></i>
+                                            Delete
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card custom">
-                            asd
+                        <div class="column">
+                            <div class="panel">
+                                <div class="top">
+                                    
+                                </div>
+                                <div class="bottom">
+                                    <div class="ui mini buttons custom">
+                                        <button class="ui button">
+                                            <i class="search icon"></i>
+                                            View
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="edit icon"></i>
+                                            Edit
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="trash icon"></i>
+                                            Delete
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card custom">
-                            asd
+                        <div class="column">
+                            <div class="panel">
+                                <div class="top">
+                                    
+                                </div>
+                                <div class="bottom">
+                                    <div class="ui mini buttons custom">
+                                        <button class="ui button">
+                                            <i class="search icon"></i>
+                                            View
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="edit icon"></i>
+                                            Edit
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="trash icon"></i>
+                                            Delete
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card custom">
-                            asd
+                        <div class="column">
+                            <div class="panel">
+                                <div class="top">
+                                    
+                                </div>
+                                <div class="bottom">
+                                    <div class="ui mini buttons custom">
+                                        <button class="ui button">
+                                            <i class="search icon"></i>
+                                            View
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="edit icon"></i>
+                                            Edit
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="trash icon"></i>
+                                            Delete
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card custom">
-                            asd
+                        <div class="column">
+                            <div class="panel">
+                                <div class="top">
+                                    
+                                </div>
+                                <div class="bottom">
+                                    <div class="ui mini buttons custom">
+                                        <button class="ui button">
+                                            <i class="search icon"></i>
+                                            View
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="edit icon"></i>
+                                            Edit
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="trash icon"></i>
+                                            Delete
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card custom">
-                            asd
+                        <div class="column">
+                            <div class="panel">
+                                <div class="top">
+                                    
+                                </div>
+                                <div class="bottom">
+                                    <div class="ui mini buttons custom">
+                                        <button class="ui button">
+                                            <i class="search icon"></i>
+                                            View
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="edit icon"></i>
+                                            Edit
+                                        </button>
+                                        <button class="ui button">
+                                            <i class="trash icon"></i>
+                                            Delete
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
